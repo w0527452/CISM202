@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var testArray: [String] = ["Uh oh...", "not what you were expecting"]
         testArray.removeFirst()
         testArray.removeFirst()
+      if ( !testArray.isEmpty ) {
+        testArray.removeFirst()
+      }
         return true
     }
 
