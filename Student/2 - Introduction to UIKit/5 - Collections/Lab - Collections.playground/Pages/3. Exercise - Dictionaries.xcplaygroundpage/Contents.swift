@@ -18,7 +18,6 @@ print(dictionary)
 if let num = dictionary["January"] {
   print("January has \(num) days")
 }
-
 //:  Given the following arrays, create a new [String : [String]] dictionary. `shapesArray` should use the key "Shapes" and `colorsArray` should use the key "Colors". Print the resulting dictionary.
 let shapesArray = ["Square", "Circle", "Triangle"]
 let colorsArray = ["Red", "Blue", "Green"]

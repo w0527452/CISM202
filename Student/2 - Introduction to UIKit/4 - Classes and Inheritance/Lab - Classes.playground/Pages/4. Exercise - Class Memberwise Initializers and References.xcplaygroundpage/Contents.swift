@@ -23,7 +23,7 @@ class Spaceship {
     }
 
     func wasHit() {
-        health -= 5
+      health -= 5
         if health <= 0 {
             print("Sorry, your ship was hit one too many times. Do you want to play again?")
         }
